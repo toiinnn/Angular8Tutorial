@@ -1,3 +1,27 @@
+.drink-container {
+    padding: 3em;
+    margin-bottom: 1em;
+    background-color: #2665;
+}
+
+h2 {
+    color: #009999;
+}
+
+h3 {
+    color: #00B3B3;
+} 
+
+ul {
+    font-size: 20px;
+    color: #00CC00;
+}
+
+p {
+    font-size: 30px;
+    color: #156654;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,19 +40,9 @@ ul {
         flex-direction: column;
 
         p {
+            font-size: 30px;
+            color: #156654;
             margin: 0;
-        }
-
-        p.name { 
-            font-weight: bold;
-            font-size: 1.2rem;
-        }
-
-        p.country {
-            text-transform: uppercase;
-            font-size: .9rem;
-            flex-grow: 1;
-            color: #156541;
         }
     }
 }

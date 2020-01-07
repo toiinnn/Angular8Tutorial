@@ -1,0 +1,55 @@
+.play-container {
+    padding: 3em;
+    border: 1px solid lightgray;
+    margin-bottom: 1em;
+    background-color: burlywood;
+
+    input {
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+}
+
+p {
+    font-size: 30px;
+    color: #156654;
+}
+
+h2 {
+    color: #009999;
+}
+
+h3 {
+    color: #00B3B3;
+} 
+
+.generation-pokemon {
+    padding: 3em;
+    margin-bottom: 1em;
+    background-color: #2665;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        background: rgb(238, 238, 238);
+        padding: 1em;
+        margin-right: 10px;
+        width: 20%;
+        height: 200px;
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+
+        p {
+            font-size: 30px;
+            color: #156654;
+            margin: 0;
+        }
+    }
+}
